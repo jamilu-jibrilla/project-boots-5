@@ -1,0 +1,102 @@
+body {
+    font-size: 18px;
+    margin: 0px;
+}
+h2,h3,h4 {
+    font-weight: 800;
+}
+header {
+    height: 60vh;
+    background-image:url(images/horoscopes+header.jpg);
+    background-size: cover;
+    background-position:0% 30%;
+    background-repeat: no-repeat;
+    color: white;
+}
+.right {
+    margin-left: auto;
+}
+nav {
+    background-color:#333;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+}
+nav li a:hover {
+    text-decoration: none;
+    background-color: orangered;
+    color: white;
+}
+li {
+    list-style: none;
+    padding: 5px;
+}
+.row2 {
+    padding:0px 5% 5%;
+}
+.row2 .fa  {
+    color: red;
+    font-size:200%;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width:600px) {
+    ul{
+        padding: 0px;
+    }
+    .right {
+        display: none;
+    }
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: none;
+        background-color: black;
+        height: 40vh;
+        color: red;
+    }
+    nav li a {
+        color: white;
+        text-decoration: none;
+        padding: 5px 2px;
+    }
+    .row2 section {
+        margin-bottom: 50px;
+    }
+    section h3 {
+        font-size: 20px;
+    }
+    .first-container h2 {
+        font-size:25px;
+    }
+}
+
+img {
+    width: 100%;
+}
+footer {
+   background-color: black;
+}
+footer ul {
+    display: flex;
+    flex-direction: column;
+}
+footer a {
+    color: white;
+}
+
+.icons  {
+    font-size: 30px;
+    padding-left: 40px;
+    color:white;
+}
